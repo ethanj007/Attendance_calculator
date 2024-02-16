@@ -27,6 +27,7 @@ st.markdown(f"""
                 <br>""",
                 unsafe_allow_html=True)
 option = st.selectbox("Select one",["Maintain Minimum attendance percentage","Flexible Attendance Tracking"])
+
 try:
     if option == "Maintain Minimum attendance percentage":
 
@@ -216,6 +217,9 @@ try:
 
 except ZeroDivisionError:
         st.warning("Please enter the values")
+
+except TypeError:
+    st.warning("Please enter a value in this field")
 
 
 
