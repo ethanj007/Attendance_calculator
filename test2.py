@@ -1,26 +1,7 @@
 import streamlit as st
 import math
 
-'''attendance = st.number_input(label="Enter the minimum attendance percentage: :red[*]",
-                                     min_value=0,
-                                     max_value=100,
-                                     value=None,
-                                     format="%d")
-total = st.number_input(label="Enter the total number of classes: :red[*]",
-                                min_value=0,
-                                value=None,
-                                format="%d")
-
-current_classes = st.number_input(label="Enter the number of classes completed till date: :red[*]",
-                                             min_value=0,
-
-                                             value=None,
-                                             format="%d")
-current_attendance = st.number_input(label="Enter your current attendance percentage: :red[*]",
-                                   min_value=0,
-
-                                   value=None,
-                                   format="%d")'''
+# SIMPLE CALCULATION IN COMMAND LINE INTERFACE
 attendance = float(input("Enter the minimum attendance percentage:"))
 total = int(input("enter total number of classes"))
 current_classes = int(input("enter the number of classes completed till date"))
