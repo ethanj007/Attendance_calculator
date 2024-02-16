@@ -1,7 +1,7 @@
 import streamlit as st
 import math
 
-# SIMPLE CALCULATION IN COMMAND LINE INTERFACE
+# ADDED A SIMPLE CALCULATION IN COMMAND LINE INTERFACE
 attendance = float(input("Enter the minimum attendance percentage:"))
 total = int(input("enter total number of classes"))
 current_classes = int(input("enter the number of classes completed till date"))
